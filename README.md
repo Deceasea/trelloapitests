@@ -28,10 +28,10 @@ JUnit
 RestAssured for API testing
 Allure for reporting
 This project uses Allure for test reporting. After running the tests, generate the Allure report using the following commands:
-
+~~~
 mvn clean test
 mvn allure:report
-
+~~~
 This will open the Allure report in your default web browser.
 
 Author
