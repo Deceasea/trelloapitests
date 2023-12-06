@@ -1,7 +1,8 @@
+import io.qameta.allure.Epic;
 import io.restassured.RestAssured;
 import org.junit.BeforeClass;
 
-
+@Epic("Create Board")
 public class TrelloApiTests {
 
     public static final String API_KEY = "a5dfbe490bc5eeb09a195b61f49d1b30";
